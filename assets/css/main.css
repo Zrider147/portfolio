@@ -197,10 +197,14 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+				/*background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: linear-gradient(to right, #5e42a6, #b74e91);*/
+				background-image: -moz-linear-gradient(to right, #ffffff, #ffffff);
+				background-image: -webkit-linear-gradient(to right, #ffffff, #ffffff);
+				background-image: -ms-linear-gradient(to right, #ffffff, #ffffff);
+				background-image: linear-gradient(to right, #ffffff, #ffffff);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -213,7 +217,7 @@ input, select, textarea {
 				right: 0;
 				width: 100%;
 			}
-
+	
 	h2 {
 		font-size: 1.75em;
 	}
@@ -3394,7 +3398,8 @@ input, select, textarea {
 		display: flex;
 		background-color: #5e42a6;
 		cursor: default;
-		padding: 1.75em 2em;
+		/*padding: 1.75em 2em;*/
+		padding: 0 0;
 	}
 
 		#header > .title {
